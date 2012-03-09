@@ -59,7 +59,7 @@
 
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
- 
+
       <!-- indent end tag if there are element children -->
       <xsl:if test="*">
         <xsl:text>&#10;</xsl:text>

@@ -3,7 +3,7 @@
                 xmlns:xhtml="http://www.w3.org/1999/xhtml"
                 xmlns:planet="http://planet.intertwingly.net/"
                 xmlns="http://www.w3.org/1999/xhtml">
- 
+
   <xsl:template match="atom:feed">
     <html xmlns="http://www.w3.org/1999/xhtml">
 
@@ -48,7 +48,7 @@
       </body>
     </html>
   </xsl:template>
- 
+
   <xsl:template match="planet:source">
     <xsl:variable name="validome_format">
       <xsl:choose>
