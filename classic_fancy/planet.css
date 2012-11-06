@@ -26,18 +26,13 @@ h1 {
 h2 {
 	font-family: "Bitstream Vera Sans", sans-serif;
 	font-weight: normal;
-	color: #200080;
-
 	margin-left: -20px;
 }
 
 h3 {
 	font-family: "Bitstream Vera Sans", sans-serif;
 	font-weight: normal;
-
-	background-color: #a0c0ff;
 	border: 1px solid #5080b0;
-
 	padding: 4px;
 }
 
