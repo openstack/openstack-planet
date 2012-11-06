@@ -1,26 +1,28 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-
-### Fancy Planet HTML template.
-###
-### When combined with the stylesheet and images in the output/ directory
-### of the Planet source, this gives you a much prettier result than the
-### default examples template and demonstrates how to use the config file
-### to support things like faces
-###
-### For documentation on the more boring template elements, see
-### examples/config.ini and examples/index.html.tmpl in the Planet source.
-
 <head>
 <title><TMPL_VAR name></title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="generator" content="<TMPL_VAR generator ESCAPE="HTML">">
 <link rel="stylesheet" href="planet.css" type="text/css">
+<!-- Google Fonts -->
+<link href='http://fonts.googleapis.com/css?family=PT+Sans&subset=latin' rel='stylesheet' type='text/css'>
+    
+   <!-- Framework CSS -->
+   <link rel="stylesheet" href="http://www.openstack.org/themes/openstack/css/blueprint/screen.css" type="text/css" media="screen, projection">
+   <link rel="stylesheet" href="http://www.openstack.org/themes/openstack/css/blueprint/print.css" type="text/css" media="print">
+  <link rel="stylesheet" type="text/css" href="http://www.openstack.org/themes/openstack/css/main.css?m=1348021980" />
+    <!-- OpenStack Specific CSS -->
+    <link rel="stylesheet" href="http://www.openstack.org/themes/openstack/css/dropdown.css" type="text/css" media="screen, projection, print">
+
+    <!-- Page Specific CSS -->
+    <link rel="stylesheet" href="http://www.openstack.org/themes/openstack/css/home.css" type="text/css" media="screen, projection, print">
+
 <TMPL_IF feedtype>
 <link rel="alternate" href="<TMPL_VAR feed ESCAPE="HTML">" title="<TMPL_VAR channel_title_plain ESCAPE="HTML">" type="application/<TMPL_VAR feedtype>+xml">
 </TMPL_IF>
-<script type="text/javascript">
 
+<script type="text/javascript">
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-17511903-1']);
   _gaq.push(['_setDomainName', '.openstack.org']);
@@ -31,14 +33,37 @@
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
-
 </script>
 
 </head>
 
 <body>
-<h1><TMPL_VAR name></h1>
-<TMPL_VAR admin>
+
+<div class="container">
+	<div id="header">
+		<div class="span-5">
+			<h1 id="logo"><a href="/">Planet Open Stack</a></h1>
+		</div>
+		<div class="span-19 last blueLine">
+			<div id="navigation" class="span-19">
+				<ul id="Menu1">
+					<li><a href="http://openstack.org/" title="Go to the OpenStack.org">Home</a></li>
+   			  		<li><a href="http://openstack.org/software/" title="Go to the Software page" class="link">Software</a></li>
+   			  		<li><a href="http://openstack.org/user-stories/" title="Go to the User Stories page" class="link">User Stories</a></li>
+   		  	  		<li><a href="http://openstack.org/community/" class="current" title="Go to the Community page" class="link">Community</a></li>
+   		  	  		<li><a href="http://openstack.org/foundation/" title="Go to the Foundation page" class="link">Foundation</a></li>
+   		  	  		<li><a href="http://openstack.org/profile/" title="Go to the Profile page" class="link">Profile</a></li>
+   					<li><a href="http://openstack.org/blog/" title="Go to the OpenStack Blog">Blog</a></li>
+					<li><a href="http://wiki.openstack.org/" title="Go to the OpenStack Wiki">Wiki</a></li>
+					<li><a href="http://docs.openstack.org/" title="Go to OpenStack Documentation">Documentation</a></li>
+ 				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="span-18">
 
 <TMPL_LOOP Items>
 <TMPL_IF new_date>
@@ -88,7 +113,7 @@
 ### demonstrate below.
 
 <p class="date">
-<a href="<TMPL_VAR link ESCAPE="HTML">"><TMPL_IF author>by <TMPL_VAR author ESCAPE="HTML"> at </TMPL_IF><TMPL_VAR date><TMPL_IF category> under <TMPL_VAR category></TMPL_IF></a>
+<a href="<TMPL_VAR link ESCAPE="HTML">"><TMPL_IF author>by <TMPL_VAR author> at </TMPL_IF><TMPL_VAR date><TMPL_IF category> under <TMPL_VAR category></TMPL_IF></a>
 </p>
 </div>
 </div>
@@ -101,50 +126,90 @@
 </TMPL_IF>
 </TMPL_LOOP>
 
+	</div>
 
-<div class="sidebar">
-<img src="images/logo.png" width="136" height="136" alt="" />
 
-<p>
-Planet OpenStack is a collection of thoughts from the developers and other
-key players of the OpenStack projects.
+	<div id="subnav" class="span-5">
+		<h2>About</h2>
+		<p>Planet OpenStack is a collection of thoughts from the developers and other key players of the OpenStack projects.  If you are working on OpenStack technology you should <a href="http://wiki.openstack.org/AddingYourBlog">add your OpenStack blog</a>.</p>
 
-If you are working on OpenStack technology and would like your blog to be
-aggregated here, please see the <a
-href="http://wiki.openstack.org/AddingYourBlog">AddingYourBlog</a> page on the
-<a href="http://wiki.openstack.org">OpenStack Wiki</a>.
-</p>
+		<h2>Subscriptions</h2>
+		<ul>
+			<TMPL_LOOP Channels>
+			<li>
+				<a href="<TMPL_VAR url ESCAPE="HTML">" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a <TMPL_IF link>href="<TMPL_VAR link ESCAPE="HTML">" </TMPL_IF><TMPL_IF message>class="message" title="<TMPL_VAR message ESCAPE="HTML">"</TMPL_IF><TMPL_UNLESS message>title="<TMPL_VAR title_plain ESCAPE="HTML">"</TMPL_UNLESS>><TMPL_VAR name></a>
+			</li>
+			</TMPL_LOOP>
+		</ul>
+	
+		<p>
+		<strong>Last updated:</strong><br>
+		<TMPL_VAR date><br>
+		<em>All times are UTC.</em><br>
+		<br>
+		Powered by:<br>
+		<a href="http://www.planetplanet.org/"><img src="images/planet.png" width="80" height="15" alt="Planet" border="0"></a>
+		</p>
+	
+		<p>
+		<h2>Planetarium:</h2>
+		<ul>
+			<li><a href="http://www.planetapache.org/">Planet Apache</a></li>
+			<li><a href="http://planet.debian.net/">Planet Debian</a></li>
+			<li><a href="http://planet.freedesktop.org/">Planet freedesktop.org</a></li>
+			<li><a href="http://planet.gnome.org/">Planet GNOME</a></li>
+			<li><a href="http://planetsun.org/">Planet Sun</a></li>
+			<li><a href="http://fedora.linux.duke.edu/fedorapeople/">Fedora People</a></li>
+			<li><a href="http://www.planetplanet.org/">more...</a></li>
+		</ul>
+		</p>
+	</div>
 
-<h2>Subscriptions</h2>
-<ul>
-<TMPL_LOOP Channels>
-<li>
-<a href="<TMPL_VAR url ESCAPE="HTML">" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a <TMPL_IF link>href="<TMPL_VAR link ESCAPE="HTML">" </TMPL_IF><TMPL_IF message>class="message" title="<TMPL_VAR message ESCAPE="HTML">"</TMPL_IF><TMPL_UNLESS message>title="<TMPL_VAR title_plain ESCAPE="HTML">"</TMPL_UNLESS>><TMPL_VAR name></a>
-</li>
-</TMPL_LOOP>
-</ul>
+</div>
 
-<p>
-<strong>Last updated:</strong><br>
-<TMPL_VAR date><br>
-<em>All times are UTC.</em><br>
-<br>
-Powered by:<br>
-<a href="http://www.planetplanet.org/"><img src="images/planet.png" width="80" height="15" alt="Planet" border="0"></a>
-</p>
-
-<p>
-<h2>Planetarium:</h2>
-<ul>
-<li><a href="http://www.planetapache.org/">Planet Apache</a></li>
-<li><a href="http://planet.debian.net/">Planet Debian</a></li>
-<li><a href="http://planet.freedesktop.org/">Planet freedesktop.org</a></li>
-<li><a href="http://planet.gnome.org/">Planet GNOME</a></li>
-<li><a href="http://planetsun.org/">Planet Sun</a></li>
-<li><a href="http://fedora.linux.duke.edu/fedorapeople/">Fedora People</a></li>
-<li><a href="http://www.planetplanet.org/">more...</a></li>
-</ul>
-</p>
+<div class="container">
+	<div id="footer">
+		<hr>
+		<div class="span-4">
+			<h3>OpenStack</h3>
+			<ul>
+				<li><a href="http://openstack.org/projects/">Projects</a></li>
+				<li><a href="http://openstack.org/openstack-security/">OpenStack Security</a></li>
+				<li><a href="http://openstack.org/projects/openstack-faq/">Common Questions</a></li>
+				<li><a href="http://openstack.org/blog/">Blog</a></li>
+			</ul>
+		</div>
+		<div class="span-4">
+			<h3>Community</h3>
+			<ul>
+				<li><a href="http://openstack.org/community/">User Groups</a></li>
+				<li><a href="http://openstack.org/events/">Events</a></li>
+				<li><a href="http://openstack.org/jobs/">Jobs</a></li>
+				<li><a href="http://openstack.org/companies/">Companies</a></li>
+				<li><a href="http://wiki.openstack.org/HowToContribute">Contribute</a></li>
+			</ul>
+		</div>
+		<div class="span-4">
+			<h3>Documentation</h3>
+			<ul>
+				<li><a href="http://docs.openstack.org/">OpenStack Manuals</a></li>
+				<li><a href="http://www.openstack.org/software/start/">Getting Started</a></li>
+				<li><a href="http://api.openstack.org/">API Documentation</a></li>
+				<li><a href="http://wiki.openstack.org/">Wiki</a></li>
+			</ul>
+		</div>
+		<div class="span-4 last">
+			<h3>Branding &amp; Legal</h3>
+			<ul>
+				<li><a href="http://openstack.org/brand/">Logos &amp; Guidelines</a></li>
+				<li><a href="http://openstack.org/brand/openstack-trademark-policy/">Trademark Policy</a></li>
+				<li><a href="http://openstack.org/privacy/">Privacy Policy</a></li>
+				<li><a href="http://wiki.openstack.org/CLA">OpenStack CLA</a></li>
+			</ul>
+		</div>
+		<hr>
+		<p>The OpenStack project is provided under the Apache 2.0 license.</p>
+	</div>
 </div>
 </body>
 
