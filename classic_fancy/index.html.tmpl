@@ -34,7 +34,12 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 </script>
-
+<style type="text/css">
+div#main img {
+   max-width: 100%;
+   height: auto;
+}
+</style>
 </head>
 
 <body>
@@ -63,7 +68,7 @@
 </div>
 
 <div class="container">
-	<div class="span-18">
+	<div id='main' class="span-18">
 
 <TMPL_LOOP Items>
 <TMPL_IF new_date>
