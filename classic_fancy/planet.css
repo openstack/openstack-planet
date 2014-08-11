@@ -69,6 +69,12 @@ img.face {
 	color: inherit;
 }
 
+.entry .content pre {
+	overflow: auto;
+	word-wrap: normal;
+	white-space: pre;
+}
+
 .sidebar {
 	position: absolute;
 	top: 0px;
