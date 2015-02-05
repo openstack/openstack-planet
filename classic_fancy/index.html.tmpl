@@ -1,221 +1,471 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
-<head>
-<title><TMPL_VAR name></title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="generator" content="<TMPL_VAR generator ESCAPE="HTML">">
-<link rel="stylesheet" href="planet.css" type="text/css">
-<!-- Google Fonts -->
-<link href='http://fonts.googleapis.com/css?family=PT+Sans&subset=latin' rel='stylesheet' type='text/css'>
-    
-   <!-- Framework CSS -->
-   <link rel="stylesheet" href="http://www.openstack.org/themes/openstack/css/blueprint/screen.css" type="text/css" media="screen, projection">
-   <link rel="stylesheet" href="http://www.openstack.org/themes/openstack/css/blueprint/print.css" type="text/css" media="print">
-  <link rel="stylesheet" type="text/css" href="http://www.openstack.org/themes/openstack/css/main.css?m=1348021980" />
-    <!-- OpenStack Specific CSS -->
-    <link rel="stylesheet" href="http://www.openstack.org/themes/openstack/css/dropdown.css" type="text/css" media="screen, projection, print">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta content="text/html; charset=utf8" http-equiv="Content-Type"/>
+  <title><TMPL_VAR name></title>
+  <meta charset="utf8"/>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <link href="http://www.openstack.org/themes/openstack/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="http://www.openstack.org/themes/openstack/css/combined.css" rel="stylesheet"/>
+  <link href="http://www.openstack.org/themes/openstack/css/dropdown.css" rel="stylesheet"/>
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"/>
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet" type="text/css"/>
+  <link href="planet.css" rel="stylesheet"/>
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  <!-- Page-specific CSS -->
+  <TMPL_IF feedtype>
+   <link rel="alternate" href="<TMPL_VAR feed ESCAPE="HTML">" title="<TMPL_VAR channel_title_plain ESCAPE="HTML">" type="application/<TMPL_VAR feedtype>+xml">
+  </TMPL_IF>
+  <script type="text/javascript">
+   var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-17511903-1']);
+      _gaq.push(['_setDomainName', '.openstack.org']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+  </script>
+ </head>
+ <body>
+  <nav class="navbar navbar-default inner" role="navigation">
+   <div class="container">
+    <div class="navbar-header">
+     <button class="navbar-toggle" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button">
+      <span class="sr-only">
+       Toggle navigation
+      </span>
+      <span class="icon-bar">
+      </span>
+      <span class="icon-bar">
+      </span>
+      <span class="icon-bar">
+      </span>
+     </button>
+     <div class="brand-wrapper">
+      <a class="navbar-brand" href="/">
+      </a>
+     </div>
+     <div class="search-icon show">
+     </div>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+     <div class="search-container tiny">
+      <div id="gcse">
+       <script type="text/javascript">
+        (function() {
+        var cx = '000108871792296872333:noj9nikm74i';
+        var gcse = document.createElement('script');
+        gcse.type = 'text/javascript';
+        gcse.async = true;
+        gcse.src = (document.location.protocol == 'https:' ? 'https:' :
+'http:') +
+            '//www.google.com/cse/cse.js?cx=' + cx;
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(gcse, s);
+      })();
+       </script>
+       <gcse:search gname="standard">
+       </gcse:search>
+      </div>
+      <i class="fa fa-times close-search">
+      </i>
+     </div>
+     <ul class="nav navbar-nav navbar-main show">
+      <li>
+       <div id="gcse-mobile">
+        <gcse:search gname="mobile">
+        </gcse:search>
+       </div>
+      </li>
+      <li>
+       <a class="drop" href="http://www.openstack.org/software/" id="dropdownMenuSoftware">
+        Software
+        <i class="fa fa-caret-down">
+        </i>
+       </a>
+       <ul aria-labelledby="dropdownMenuSoftware" class="dropdown-menu" role="menu">
+        <li role="presentation">
+         <a href="http://www.openstack.org/software/" role="menuitem" tabindex="-1">
+          Overview
+         </a>
+        </li>
+        <li class="divider" role="presentation">
+        </li>
+        <li role="presentation">
+         <a href="http://www.openstack.org/software/openstack-compute/" role="menuitem" tabindex="-1">
+          Compute
+         </a>
+        </li>
+        <li role="presentation">
+         <a href="http://www.openstack.org/software/openstack-storage/" role="menuitem" tabindex="-1">
+          Storage
+         </a>
+        </li>
+        <li role="presentation">
+         <a href="http://www.openstack.org/software/openstack-networking/" role="menuitem" tabindex="-1">
+          Networking
+         </a>
+        </li>
+        <li role="presentation">
+         <a href="http://www.openstack.org/software/openstack-dashboard/" role="menuitem" tabindex="-1">
+          Dashboard
+         </a>
+        </li>
+        <li role="presentation">
+         <a href="http://www.openstack.org/software/openstack-shared-services/" role="menuitem" tabindex="-1">
+          Shared Services
+         </a>
+        </li>
+        <li class="divider" role="presentation">
+        </li>
+        <li role="presentation">
+         <a href="http://www.openstack.org/software/start/" role="menuitem" tabindex="-1">
+          Get Started
+         </a>
+        </li>
+       </ul>
+      </li>
+      <li>
+       <a class="drop" href="http://www.openstack.org/user-stories/" id="dropdownMenuUsers">
+        Users
+        <i class="fa fa-caret-down">
+        </i>
+       </a>
+       <ul aria-labelledby="dropdownMenuUsers" class="dropdown-menu" role="menu">
+        <li role="presentation">
+         <a href="http://www.openstack.org/user-stories/" role="menuitem" tabindex="-1">
+          Overview
+         </a>
+        </li>
+        <li class="divider" role="presentation">
+        </li>
+        <li role="presentation">
+         <a href="//superuser.openstack.org/" role="menuitem" tabindex="-1">
+          Superuser Magazine
+         </a>
+        </li>
+        <li role="presentation">
+         <a href="http://www.openstack.org/enterprise/auto/" role="menuitem" tabindex="-1">
+          Featured:  Top 10 Automaker
+         </a>
+        </li>
+       </ul>
+      </li>
+      <li>
+       <a class="drop" href="http://www.openstack.org/community/" id="dropdownMenuCommunity">
+        Community
+        <i class="fa fa-caret-down">
+        </i>
+       </a>
+       <ul aria-labelledby="dropdownMenuCommunity" class="dropdown-menu" role="menu">
+        <li role="presentation">
+         <a href="http://www.openstack.org/community/" role="menuitem" tabindex="-1">
+          Welcome! Start Here
+         </a>
+        </li>
+        <li role="presentation">
+         <a href="//ask.openstack.org/" role="menuitem" tabindex="-1">
+          Ask A Technical Question
+         </a>
+        </li>
+        <li role="presentation">
+         <a href="//wiki.openstack.org/wiki/Main_Page" role="menuitem" tabindex="-1">
+          OpenStack Wiki
+         </a>
+        </li>
+        <li role="presentation">
+         <a href="//www.openstack.org/community/events/" role="menuitem" tabindex="-1">
+          Community Events
+         </a>
+        </li>
+        <li role="presentation">
+         <a href="//wiki.openstack.org/wiki/Getting_The_Code" role="menuitem" tabindex="-1">
+          Source Code
+         </a>
+        </li>
+        <li class="divider" role="presentation">
+        </li>
+        <li role="presentation">
+         <a href="//www.openstack.org/foundation/companies/" role="menuitem" tabindex="-1">
+          Supporting Companies
+         </a>
+        </li>
+        <li role="presentation">
+         <a href="//www.openstack.org/community/jobs/" role="menuitem" tabindex="-1">
+          Jobs
+         </a>
+        </li>
+        <li class="divider" role="presentation">
+        </li>
+        <li role="presentation">
+         <a href="//www.openstack.org/join/" role="menuitem" tabindex="-1">
+          Join The Community
+         </a>
+        </li>
+       </ul>
+      </li>
+      <li>
+       <a href="http://www.openstack.org/marketplace/">
+        Marketplace
+       </a>
+      </li>
+      <li>
+       <a class="drop" href="http://www.openstack.org/events/" id="dropdownMenuEvents">
+        Events
+        <i class="fa fa-caret-down">
+        </i>
+       </a>
+       <ul aria-labelledby="dropdownMenuEvents" class="dropdown-menu" role="menu">
+        <li role="presentation">
+         <a href="//www.openstack.org/community/events/" role="menuitem" tabindex="-1">
+          Overview
+         </a>
+        </li>
+        <li role="presentation">
+         <a href="//www.openstack.org/summit/openstack-paris-summit-2014/" role="menuitem" tabindex="-1">
+          The OpenStack Summit
+         </a>
+        </li>
+        <li role="presentation">
+         <a href="//www.openstack.org/community/events/" role="menuitem" tabindex="-1">
+          More OpenStack Events
+         </a>
+        </li>
+       </ul>
+      </li>
+      <li>
+       <a href="http://www.openstack.org/blog/">
+        Blog
+       </a>
+      </li>
+      <li>
+       <a href="http://docs.openstack.org/">
+        Docs
+       </a>
+      </li>
+     </ul>
+    </div>
+   </div>
+  </nav>
 
-    <!-- Page Specific CSS -->
-    <link rel="stylesheet" href="http://www.openstack.org/themes/openstack/css/home.css" type="text/css" media="screen, projection, print">
+  <div class="container">
+   <div class="row">
+    <div class="col-md-9">
+     <TMPL_LOOP Items>
+      <TMPL_IF new_date>
+       <TMPL_UNLESS __FIRST__>
+         </div>
+        </div>
+       </TMPL_UNLESS>
+      <div class="daygroup">
+       <h2><TMPL_VAR new_date></h2>
+      </TMPL_IF>
+      <TMPL_IF new_channel>
+       <TMPL_UNLESS new_date>
+        </div>
+       </TMPL_UNLESS>
+       <div class="channelgroup">
+        <h3><a href="<TMPL_VAR channel_link ESCAPE="HTML">" title="<TMPL_VAR channel_title_plain ESCAPE="HTML">"><TMPL_VAR channel_name></a></h3>
+        <TMPL_IF channel_face>
+         <img class="face" src="images/<TMPL_VAR channel_face ESCAPE="HTML">" width="<TMPL_VAR channel_facewidth ESCAPE="HTML">" height="<TMPL_VAR channel_faceheight ESCAPE="HTML">" alt="">
+        </TMPL_IF>
+      </TMPL_IF>
+      <div class="entrygroup" id="<TMPL_VAR id>"<TMPL_IF channel_language> lang="<TMPL_VAR channel_language>"</TMPL_IF>>
+       <TMPL_IF title>
+        <h4<TMPL_IF title_language> lang="<TMPL_VAR title_language>"</TMPL_IF>><a href="<TMPL_VAR link ESCAPE="HTML">"><TMPL_VAR title></a></h4>
+       </TMPL_IF>
+       <div class="entry">
+        <div class="content"<TMPL_IF content_language> lang="<TMPL_VAR content_language>"</TMPL_IF>>
+         <TMPL_VAR content>
+        </div>
+        <p class="date">
+         <a href="<TMPL_VAR link ESCAPE="HTML">"><TMPL_IF author>by <TMPL_VAR author> at </TMPL_IF><TMPL_VAR date><TMPL_IF category> under <TMPL_VAR category></TMPL_IF></a>
+        </p>
+       </div>
+      </div>
+      <TMPL_IF __LAST__>
+        </div>
+       </div>
+      </TMPL_IF>
+     </TMPL_LOOP>
+    </div>
+    <div class="col-md-3">
+     <h2>About</h2>
+     <p>Planet OpenStack is a collection of thoughts from the developers and other key players of the OpenStack projects.  If you are working on OpenStack technology you should <a href="http://wiki.openstack.org/AddingYourBlog">add your OpenStack blog</a>.</p>
+     <h2>Subscriptions</h2>
+     <ul class="subscriptions">
+      <TMPL_LOOP Channels>
+       <li>
+        <a href="<TMPL_VAR url ESCAPE="HTML">" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a <TMPL_IF link>href="<TMPL_VAR link ESCAPE="HTML">" </TMPL_IF><TMPL_IF message>class="message" title="<TMPL_VAR message ESCAPE="HTML">"</TMPL_IF><TMPL_UNLESS message>title="<TMPL_VAR title_plain ESCAPE="HTML">"</TMPL_UNLESS>><TMPL_VAR name></a>
+       </li>
+      </TMPL_LOOP>
+     </ul>
+     <p>
+      <strong>Last updated:</strong><br>
+      <TMPL_VAR date><br>
+      <em>All times are UTC.</em><br>
+      <br>
+      Powered by:<br>
+      <a href="http://www.planetplanet.org/"><img src="images/planet.png" width="80" height="15" alt="Planet" border="0"></a>
+     </p>
+    </div>
+   </div>
+  </div>
 
-<TMPL_IF feedtype>
-<link rel="alternate" href="<TMPL_VAR feed ESCAPE="HTML">" title="<TMPL_VAR channel_title_plain ESCAPE="HTML">" type="application/<TMPL_VAR feedtype>+xml">
-</TMPL_IF>
-
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-17511903-1']);
-  _gaq.push(['_setDomainName', '.openstack.org']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
-<style type="text/css">
-div#main img {
-   max-width: 100%;
-   height: auto;
-}
-</style>
-</head>
-
-<body>
-
-<div class="container">
-	<div id="header">
-		<div class="span-5">
-			<h1 id="logo"><a href="/"></a></h1>
-		</div>
-		<div class="span-19 last blueLine">
-			<div id="navigation" class="span-19">
-				<ul id="Menu1">
-					<li><a href="http://openstack.org/" title="Go to the OpenStack.org"></a></li>
-   			  		<li><a href="http://openstack.org/software/" title="Go to the Software page" class="link">Software</a></li>
-   			  		<li><a href="http://openstack.org/user-stories/" title="Go to the User Stories page" class="link">User Stories</a></li>
-   		  	  		<li><a href="http://openstack.org/community/" class="current" title="Go to the Community page" class="link">Community</a></li>
-   		  	  		<li><a href="http://openstack.org/foundation/" title="Go to the Foundation page" class="link">Foundation</a></li>
-   		  	  		<li><a href="http://openstack.org/profile/" title="Go to the Profile page" class="link">Profile</a></li>
-   					<li><a href="http://openstack.org/blog/" title="Go to the OpenStack Blog">Blog</a></li>
-					<li><a href="http://wiki.openstack.org/" title="Go to the OpenStack Wiki">Wiki</a></li>
-					<li><a href="http://docs.openstack.org/" title="Go to OpenStack Documentation">Documentation</a></li>
- 				</ul>
-			</div>
-		</div>
-	</div>
-</div>
-
-<div class="container">
-	<div id='main' class="span-18">
-
-<TMPL_LOOP Items>
-<TMPL_IF new_date>
-<TMPL_UNLESS __FIRST__>
-### End <div class="channelgroup">
-</div>
-### End <div class="daygroup">
-</div>
-</TMPL_UNLESS>
-<div class="daygroup">
-<h2><TMPL_VAR new_date></h2>
-</TMPL_IF>
-
-<TMPL_IF new_channel>
-<TMPL_UNLESS new_date>
-### End <div class="channelgroup">
-</div>
-</TMPL_UNLESS>
-<div class="channelgroup">
-
-### Planet provides template variables for *all* configuration options for
-### the channel (and defaults), even if it doesn't know about them.  We
-### exploit this here to add hackergotchi faces to our channels.  Planet
-### doesn't know about the "face", "facewidth" and "faceheight" configuration
-### variables, but makes them available to us anyway.
-
-<h3><a href="<TMPL_VAR channel_link ESCAPE="HTML">" title="<TMPL_VAR channel_title_plain ESCAPE="HTML">"><TMPL_VAR channel_name></a></h3>
-<TMPL_IF channel_face>
-<img class="face" src="images/<TMPL_VAR channel_face ESCAPE="HTML">" width="<TMPL_VAR channel_facewidth ESCAPE="HTML">" height="<TMPL_VAR channel_faceheight ESCAPE="HTML">" alt="">
-</TMPL_IF>
-</TMPL_IF>
-
-
-<div class="entrygroup" id="<TMPL_VAR id>"<TMPL_IF channel_language> lang="<TMPL_VAR channel_language>"</TMPL_IF>>
-<TMPL_IF title>
-<h4<TMPL_IF title_language> lang="<TMPL_VAR title_language>"</TMPL_IF>><a href="<TMPL_VAR link ESCAPE="HTML">"><TMPL_VAR title></a></h4>
-</TMPL_IF>
-<div class="entry">
-<div class="content"<TMPL_IF content_language> lang="<TMPL_VAR content_language>"</TMPL_IF>>
-<TMPL_VAR content>
-</div>
-
-### Planet also makes available all of the information from the feed
-### that it can.  Use the 'planet-cache' tool on the cache file for
-### a particular feed to find out what additional keys it supports.
-### Comment extra fields are 'author' and 'category' which we
-### demonstrate below.
-
-<p class="date">
-<a href="<TMPL_VAR link ESCAPE="HTML">"><TMPL_IF author>by <TMPL_VAR author> at </TMPL_IF><TMPL_VAR date><TMPL_IF category> under <TMPL_VAR category></TMPL_IF></a>
-</p>
-</div>
-</div>
-
-<TMPL_IF __LAST__>
-### End <div class="channelgroup">
-</div>
-### End <div class="daygroup">
-</div>
-</TMPL_IF>
-</TMPL_LOOP>
-
-	</div>
-
-
-	<div id="subnav" class="span-5">
-		<h2>About</h2>
-		<p>Planet OpenStack is a collection of thoughts from the developers and other key players of the OpenStack projects.  If you are working on OpenStack technology you should <a href="http://wiki.openstack.org/AddingYourBlog">add your OpenStack blog</a>.</p>
-
-		<h2>Subscriptions</h2>
-		<ul>
-			<TMPL_LOOP Channels>
-			<li>
-				<a href="<TMPL_VAR url ESCAPE="HTML">" title="subscribe"><img src="images/feed-icon-10x10.png" alt="(feed)"></a> <a <TMPL_IF link>href="<TMPL_VAR link ESCAPE="HTML">" </TMPL_IF><TMPL_IF message>class="message" title="<TMPL_VAR message ESCAPE="HTML">"</TMPL_IF><TMPL_UNLESS message>title="<TMPL_VAR title_plain ESCAPE="HTML">"</TMPL_UNLESS>><TMPL_VAR name></a>
-			</li>
-			</TMPL_LOOP>
-		</ul>
-	
-		<p>
-		<strong>Last updated:</strong><br>
-		<TMPL_VAR date><br>
-		<em>All times are UTC.</em><br>
-		<br>
-		Powered by:<br>
-		<a href="http://www.planetplanet.org/"><img src="images/planet.png" width="80" height="15" alt="Planet" border="0"></a>
-		</p>
-	
-		<p>
-		<h2>Planetarium:</h2>
-		<ul>
-			<li><a href="http://www.planetapache.org/">Planet Apache</a></li>
-			<li><a href="http://planet.debian.net/">Planet Debian</a></li>
-			<li><a href="http://planet.freedesktop.org/">Planet freedesktop.org</a></li>
-			<li><a href="http://planet.gnome.org/">Planet GNOME</a></li>
-			<li><a href="http://planetsun.org/">Planet Sun</a></li>
-			<li><a href="http://planet.fedoraproject.org/">Planet Fedora</a></li>
-			<li><a href="http://www.planetplanet.org/">more...</a></li>
-		</ul>
-		</p>
-	</div>
-
-</div>
-
-<div class="container">
-	<div id="footer">
-		<hr>
-		<div class="span-4">
-			<h3>OpenStack</h3>
-			<ul>
-				<li><a href="http://openstack.org/projects/">Projects</a></li>
-				<li><a href="http://openstack.org/openstack-security/">OpenStack Security</a></li>
-				<li><a href="http://openstack.org/projects/openstack-faq/">Common Questions</a></li>
-				<li><a href="http://openstack.org/blog/">Blog</a></li>
-			</ul>
-		</div>
-		<div class="span-4">
-			<h3>Community</h3>
-			<ul>
-				<li><a href="http://openstack.org/community/">User Groups</a></li>
-				<li><a href="http://openstack.org/events/">Events</a></li>
-				<li><a href="http://openstack.org/jobs/">Jobs</a></li>
-				<li><a href="http://openstack.org/companies/">Companies</a></li>
-				<li><a href="http://wiki.openstack.org/HowToContribute">Contribute</a></li>
-			</ul>
-		</div>
-		<div class="span-4">
-			<h3>Documentation</h3>
-			<ul>
-				<li><a href="http://docs.openstack.org/">OpenStack Manuals</a></li>
-				<li><a href="http://www.openstack.org/software/start/">Getting Started</a></li>
-				<li><a href="http://api.openstack.org/">API Documentation</a></li>
-				<li><a href="http://wiki.openstack.org/">Wiki</a></li>
-			</ul>
-		</div>
-		<div class="span-4 last">
-			<h3>Branding &amp; Legal</h3>
-			<ul>
-				<li><a href="http://openstack.org/brand/">Logos &amp; Guidelines</a></li>
-				<li><a href="http://openstack.org/brand/openstack-trademark-policy/">Trademark Policy</a></li>
-				<li><a href="http://openstack.org/privacy/">Privacy Policy</a></li>
-				<li><a href="http://wiki.openstack.org/CLA">OpenStack CLA</a></li>
-			</ul>
-		</div>
-		<hr>
-		<p>The OpenStack project is provided under the Apache 2.0 license.</p>
-	</div>
-</div>
-</body>
-
+  <!-- Footer -->
+  <footer>
+   <div class="container">
+    <div class="row footer-links">
+     <div class="col-lg-2 col-sm-2">
+      <h3>
+       OpenStack
+      </h3>
+      <ul>
+       <li>
+        <a href="/foundation">
+         About the Foundation
+        </a>
+       </li>
+       <li>
+        <a href="http://openstack.org/projects/">
+         Projects
+        </a>
+       </li>
+       <li>
+        <a href="http://openstack.org/projects/openstack-security/">
+         OpenStack Security
+        </a>
+       </li>
+       <li>
+        <a href="http://openstack.org/projects/openstack-faq/">
+         Common Questions
+        </a>
+       </li>
+       <li>
+        <a href="http://openstack.org/blog/">
+         Blog
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="col-lg-2 col-sm-2">
+      <h3>
+       Community
+      </h3>
+      <ul>
+       <li>
+        <a href="http://openstack.org/community/">
+         User Groups
+        </a>
+       </li>
+       <li>
+        <a href="http://openstack.org/community/events/">
+         Events
+        </a>
+       </li>
+       <li>
+        <a href="http://openstack.org/community/jobs/">
+         Jobs
+        </a>
+       </li>
+       <li>
+        <a href="http://openstack.org/foundation/companies/">
+         Companies
+        </a>
+       </li>
+       <li>
+        <a href="https://wiki.openstack.org/wiki/How_To_Contribute">
+         Contribute
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="col-lg-2 col-sm-2">
+      <h3>
+       Documentation
+      </h3>
+      <ul>
+       <li>
+        <a href="http://docs.openstack.org">
+         OpenStack Manuals
+        </a>
+       </li>
+       <li>
+        <a href="http://openstack.org/software/start/">
+         Getting Started
+        </a>
+       </li>
+       <li>
+        <a href="http://developer.openstack.org">
+         API Documentation
+        </a>
+       </li>
+       <li>
+        <a href="https://wiki.openstack.org">
+         Wiki
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="col-lg-2 col-sm-2">
+      <h3>
+       Branding &amp; Legal
+      </h3>
+      <ul>
+       <li>
+        <a href="http://openstack.org/brand/">
+         Logos &amp; Guidelines
+        </a>
+       </li>
+       <li>
+        <a href="http://openstack.org/brand/openstack-trademark-policy/">
+         Trademark Policy
+        </a>
+       </li>
+       <li>
+        <a href="http://openstack.org/privacy/">
+         Privacy Policy
+        </a>
+       </li>
+       <li>
+        <a href="https://wiki.openstack.org/wiki/How_To_Contribute#Contributors_License_Agreement">
+         OpenStack CLA
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="col-lg-4 col-sm-4">
+      <h3>
+       Stay In Touch
+      </h3>
+      <a class="social-icons footer-twitter" href="https://twitter.com/OpenStack" target="_blank">
+      </a>
+      <a class="social-icons footer-facebook" href="https://www.facebook.com/openstack" target="_blank">
+      </a>
+      <a class="social-icons footer-linkedin" href="https://www.linkedin.com/company/openstack" target="_blank">
+      </a>
+      <a class="social-icons footer-youtube" href="https://www.youtube.com/user/OpenStackFoundation" target="_blank">
+      </a>
+      <p class="fine-print">
+       The OpenStack project is provided under the Apache 2.0 license.
+      </p>
+     </div>
+    </div>
+   </div>
+  </footer>
+  <script src="http://www.openstack.org/themes/openstack/javascript/jquery.min.js" type="text/javascript">
+  </script>
+  <script src="http://www.openstack.org/themes/openstack/javascript/bootstrap.min.js" type="text/javascript">
+  </script>
+  <script src="http://www.openstack.org/themes/openstack/javascript/navigation.js" type="text/javascript">
+  </script>
+ </body>
 </html>
