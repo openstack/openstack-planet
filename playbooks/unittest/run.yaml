@@ -1,0 +1,11 @@
+- hosts: all
+
+  tasks:
+    - name: Run test.py
+      shell:
+        chdir: '{{ zuul.project.src_dir }}'
+        executable: /bin/bash
+        cmd: |
+          set -e
+          set -x
+          python test.py
