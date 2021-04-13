@@ -1,0 +1,224 @@
+<opml version="2.0">
+  <head>
+    <title>OpenStack Planet OPML</title>
+  </head>
+  <body>
+    <outline type="rss" xmlUrl="http://blog.aaronorosen.com/category/openstack/feed/" text="Aaron Rosen" htmlUrl=""/>
+    <outline type="rss" xmlUrl="https://blog.adamspiers.org/tag/openstack/feed/atom/" text="Adam Spiers" htmlUrl="https://blog.adamspiers.org"/>
+    <outline type="rss" xmlUrl="http://adam.younglogic.com/category/software/openstack/feed/" text="Adam Young" htmlUrl="http://adam.younglogic.com"/>
+    <outline type="rss" xmlUrl="http://blog.adityapatawari.com/feeds/posts/default/-/OpenStack" text="Aditya Patawari" htmlUrl="http://blog.adityapatawari.com/search/label/OpenStack"/>
+    <outline type="rss" xmlUrl="https://ajya.github.io/feeds/openstack.rss.xml" text="Aija Jauntēva" htmlUrl="https://ajya.github.io/"/>
+    <outline type="rss" xmlUrl="https://cloudbase.it/category/openstack/feed/" text="Alessandro Pilotti" htmlUrl="https://cloudbase.it"/>
+    <outline type="rss" xmlUrl="https://aababilov.wordpress.com/category/openstack-2/feed/" text="Alessio Ababilov" htmlUrl="https://aababilov.wordpress.com"/>
+    <outline type="rss" xmlUrl="https://alvarolopez.github.io/feeds/openstack.atom.xml" text="Alvaro Lopez Garcia" htmlUrl="http://alvarolopez.github.io/"/>
+    <outline type="rss" xmlUrl="https://hypecycles.com/category/OpenStack/feed/" text="Amrith Kumar" htmlUrl="https://hypecycles.com"/>
+    <outline type="rss" xmlUrl="http://amalagon.github.io/blog/categories/openstack/atom.xml" text="Ana Malagon" htmlUrl="http://amalagon.github.io/"/>
+    <outline type="rss" xmlUrl="https://andreafrittoli.me/tag/openstack/feed/" text="Andrea Frittoli" htmlUrl="https://andreafrittoli.me"/>
+    <outline type="rss" xmlUrl="https://virtualandy.wordpress.com/tag/openstack/feed/atom/" text="Andy Hill" htmlUrl="https://virtualandy.wordpress.com"/>
+    <outline type="rss" xmlUrl="https://anyqp.wordpress.com/category/openstack/feed/" text="Andy Smith" htmlUrl="https://anyqp.wordpress.com"/>
+    <outline type="rss" xmlUrl="https://ahsalkeld.wordpress.com/category/openstack/feed/atom/" text="Angus Salkeld" htmlUrl="https://ahsalkeld.wordpress.com"/>
+    <outline type="rss" xmlUrl="http://anteaya.info/atom.xml" text="Anita Kuno" htmlUrl=""/>
+    <outline type="rss" xmlUrl="http://justwriteclick.com/tag/openstack/feed/" text="Anne Gentle" htmlUrl="https://justwriteclick.com"/>
+    <outline type="rss" xmlUrl="https://www.reversengineered.com/tag/openstack/feed/" text="Antony Messerli" htmlUrl="https://www.reversengineered.com"/>
+    <outline type="rss" xmlUrl="https://feeds.feedburner.com/Aptira?format=xml" text="Aptira" htmlUrl="https://aptira.com"/>
+    <outline type="rss" xmlUrl="https://devinpractice.com/category/openstack/feed/" text="Arie Bregman" htmlUrl="https://devinpractice.com"/>
+    <outline type="rss" xmlUrl="https://arrfab.net/feeds/rdo.atom.xml" text="Arrfab's Blog" htmlUrl="https://arrfab.net/"/>
+    <outline type="rss" xmlUrl="https://notartom.net/category/openstack/feed/" text="Artom Lifshitz" htmlUrl="https://notartom.net"/>
+    <outline type="rss" xmlUrl="https://arunsag.wordpress.com/tag/openstack/feed/" text="Arun S A G" htmlUrl="https://arunsag.wordpress.com"/>
+    <outline type="rss" xmlUrl="https://assafmuller.com/category/openstack/feed/" text="Assaf Muller" htmlUrl="https://assafmuller.com"/>
+    <outline type="rss" xmlUrl="http://hackhackblog.blogspot.com/feeds/posts/default/-/openstack" text="Augustina Ragwitz" htmlUrl="http://hackhackblog.blogspot.com/search/label/openstack"/>
+    <outline type="rss" xmlUrl="http://blog.nemebean.com/taxonomy/term/3/feed" text="Ben Nemec" htmlUrl="http://blog.nemebean.com/tags/openstack"/>
+    <outline type="rss" xmlUrl="http://benjaminkerensa.com/category/openstack/feed" text="Benjamin Kerensa" htmlUrl="http://benjaminkerensa.com"/>
+    <outline type="rss" xmlUrl="http://blog.cafarelli.fr/category/openstack/feed/" text="Bernard Cafarelli" htmlUrl="http://blog.cafarelli.fr"/>
+    <outline type="rss" xmlUrl="https://blog.betacloud.io/tag/openstack-planet/feed/atom/" text="Betacloud" htmlUrl="https://betacloud.io"/>
+    <outline type="rss" xmlUrl="http://www.logicative.com/category/openstack/feed/" text="Beth Elwell" htmlUrl="http://www.logicative.com"/>
+    <outline type="rss" xmlUrl="http://www.bodenr.blogspot.com/feeds/posts/default/-/openstack" text="Boden Russell" htmlUrl="http://bodenr.blogspot.com/search/label/openstack"/>
+    <outline type="rss" xmlUrl="http://www.bretpiatt.com/blog/category/openstack/feed/" text="Bret Piatt" htmlUrl=""/>
+    <outline type="rss" xmlUrl="https://techblog.web.cern.ch/techblog/tags/openstack/index.xml" text="CERN Tech Blog" htmlUrl="https://techblog.web.cern.ch/techblog/tags/openstack/"/>
+    <outline type="rss" xmlUrl="https://cloud.blog.csc.fi/feeds/posts/default/-/openstack" text="CSC.fi Cloud Blog" htmlUrl="https://cloud.blog.csc.fi/search/label/openstack"/>
+    <outline type="rss" xmlUrl="http://blog.seader.us/feeds/posts/default/-/OpenStack" text="Cameron Seader" htmlUrl="http://blog.seader.us/search/label/OpenStack"/>
+    <outline type="rss" xmlUrl="http://captainkvm.com/tag/openstack/feed/" text="Captain KVM" htmlUrl=""/>
+    <outline type="rss" xmlUrl="http://blog.episodicgenius.com/tags/openstack/index.xml" text="Carl Baldwin" htmlUrl="http://blog.episodicgenius.com/tags/openstack/"/>
+    <outline type="rss" xmlUrl="https://www.anstack.com/openstack.xml" text="Carlos Camacho" htmlUrl="https://www.anstack.com/"/>
+    <outline type="rss" xmlUrl="https://ceph.com/community/blog/tag/openstack/feed/" text="Ceph" htmlUrl=""/>
+    <outline type="rss" xmlUrl="https://blog.chmouel.com/category/openstack/feed/" text="Chmouel Boudjnah" htmlUrl="https://blog.chmouel.com"/>
+    <outline type="rss" xmlUrl="https://anticdent.org/feeds/openstack.atom.xml" text="Chris Dent" htmlUrl="https://anticdent.org/"/>
+    <outline type="rss" xmlUrl="http://chris.yeoh.info/category/openstack/feed/" text="Chris Yeoh" htmlUrl="http://chris.yeoh.info"/>
+    <outline type="rss" xmlUrl="https://blog.christophersmart.com/category/foss/openstack/feed/" text="Christopher Smart" htmlUrl="https://blog.christophersmart.com"/>
+    <outline type="rss" xmlUrl="http://blogs.cisco.com/tag/openstack/feed" text="Cisco Cloud Blog" htmlUrl="https://blogs.cisco.com"/>
+    <outline type="rss" xmlUrl="http://citrix-openstack.siteleaf.net/feed.xml" text="Citrix OpenStack Blog" htmlUrl="http://citrix-openstack.siteleaf.net/"/>
+    <outline type="rss" xmlUrl="https://fewbar.com/category/tech/cloud-tech/openstack-cloud-tech/feed/" text="Clint Byrum" htmlUrl="http://fewbar.com/"/>
+    <outline type="rss" xmlUrl="http://www.symantec.com/connect/item-feeds/all/all/feed/all/all/3249921" text="Cloud Platform @ Symantec" htmlUrl="https://www.symantec.com/connect/item-feeds/all/all/feed/all/all/3249921"/>
+    <outline type="rss" xmlUrl="https://cloudbau.github.io/feed.openstack.xml" text="Cloudbau Blog" htmlUrl="https://cloudbau.github.io"/>
+    <outline type="rss" xmlUrl="https://getcloudify.org/" text="Cloudify Engineering" htmlUrl="http://getcloudify.org"/>
+    <outline type="rss" xmlUrl="http://feeds.feedburner.com/SimplicityScales?format=xml" text="Cloudscaling Engineering" htmlUrl="http://engineering.cloudscaling.com"/>
+    <outline type="rss" xmlUrl="https://dev.cloudwatt.com/en/blog/rss.xml" text="Cloudwatt" htmlUrl="https://dev.cloudwatt.com/en/blog/index.html"/>
+    <outline type="rss" xmlUrl="http://openstack.prov12n.com/category/openstack/feed/" text="Cody Bunch" htmlUrl=""/>
+    <outline type="rss" xmlUrl="http://www.gazlene.net/feeds/all.rss.xml" text="Colleen Murphy" htmlUrl="http://gazlene.net/"/>
+    <outline type="rss" xmlUrl="https://wrestlingpenguins.wordpress.com/category/openstack/feed/" text="Corey Bryant" htmlUrl="https://wrestlingpenguins.wordpress.com"/>
+    <outline type="rss" xmlUrl="https://mcwhirter.com.au/tags/OpenStack/index.atom" text="Craige McWhirter" htmlUrl="http://mcwhirter.com.au//tags/OpenStack/"/>
+    <outline type="rss" xmlUrl="https://dronopenstack.wordpress.com/category/openstack/feed/" text="Dafna Ron" htmlUrl="https://dronopenstack.wordpress.com"/>
+    <outline type="rss" xmlUrl="https://dprince.github.io/feeds/tag_openstack.atom.xml" text="Dan Prince" htmlUrl="https://dprince.github.io/"/>
+    <outline type="rss" xmlUrl="http://www.danplanet.com/blog/category/openstack/feed/" text="Dan Smith" htmlUrl="http://www.danplanet.com/blog"/>
+    <outline type="rss" xmlUrl="https://damani42.github.io/feeds/openstack.atom.xml" text="Daniel Bengtsson" htmlUrl="https://damani42.github.io/"/>
+    <outline type="rss" xmlUrl="https://www.berrange.com/topics/openstack/feed/" text="Daniel P. Berrangé" htmlUrl="https://www.berrange.com"/>
+    <outline type="rss" xmlUrl="http://www.stackevolution.com/taxonomy/term/2/feed" text="Darryl Weaver" htmlUrl=""/>
+    <outline type="rss" xmlUrl="http://dowdberry.blogspot.com/feeds/posts/default/-/openstack" text="David Medberry" htmlUrl="http://dowdberry.blogspot.com/search/label/openstack"/>
+    <outline type="rss" xmlUrl="https://dmsimard.com/categories/openstack/index.xml" text="David Moreau Simard" htmlUrl="https://dmsimard.com/categories/openstack/"/>
+    <outline type="rss" xmlUrl="http://dstanek.com/tags/openstack/index.xml" text="David Stanek" htmlUrl="https://dstanek.com/tags/openstack/index.xml"/>
+    <outline type="rss" xmlUrl="http://hackstack.org/x/blog/category/openstack/feed/" text="Dean Troyer" htmlUrl="http://hackstack.org/x/blog"/>
+    <outline type="rss" xmlUrl="http://goodsquishy.com/tag/openstack/feed/atom/" text="Derek Higgins" htmlUrl="http://goodsquishy.com"/>
+    <outline type="rss" xmlUrl="http://feeds.doughellmann.com/doughellmann/openstack" text="Doug Hellmann" htmlUrl="https://doughellmann.com/tags/openstack/"/>
+    <outline type="rss" xmlUrl="http://www.dougalmatthews.com/feeds/tag/openstack.atom.xml" text="Dougal Matthews" htmlUrl="http://www.dougalmatthews.com/"/>
+    <outline type="rss" xmlUrl="http://www.dragonflow.net/feeds/posts/default/-/OpenStack" text="Dragonflow Team" htmlUrl="http://www.dragonflow.net/search/label/OpenStack"/>
+    <outline type="rss" xmlUrl="http://oubiwann.blogspot.com/feeds/posts/default/-/openstack" text="Duncan McGreggor" htmlUrl="http://oubiwann.blogspot.com/search/label/openstack"/>
+    <outline type="rss" xmlUrl="https://blog.leafe.com/category/openstack/feed/" text="Ed Leafe" htmlUrl="https://blog.leafe.com"/>
+    <outline type="rss" xmlUrl="https://princessleia.com/journal/category/openstack/feed/" text="Elizabeth K. Joseph" htmlUrl="https://princessleia.com/journal"/>
+    <outline type="rss" xmlUrl="http://my1.fr/blog/category/virtualization/openstack/feed/atom/" text="Emilien Macchi" htmlUrl="https://my1.fr/blog"/>
+    <outline type="rss" xmlUrl="https://enriquetaso.wordpress.com/category/OpenStack/feed/" text="Enriquez Laura Sofia" htmlUrl="https://enriquetaso.wordpress.com"/>
+    <outline type="rss" xmlUrl="https://etoews.github.io/" text="Everett Toews" htmlUrl=""/>
+    <outline type="rss" xmlUrl="http://blog.fsquat.net/?tag=openstackplanet&amp;feed=rss2" text="Fabien Boucher" htmlUrl=""/>
+    <outline type="rss" xmlUrl="https://fleio.com/blog/tag/openstack/feed/" text="Fleio Blog" htmlUrl="https://fleio.com/blog"/>
+    <outline type="rss" xmlUrl="http://www.florentflament.com/blog/feeds/openstack.atom.xml" text="Florent Flament" htmlUrl="http://www.florentflament.com/blog/"/>
+    <outline type="rss" xmlUrl="http://galsagie.github.io/feed.xml?tag=Openstack" text="Gal Sagie" htmlUrl="http://galsagie.github.io"/>
+    <outline type="rss" xmlUrl="https://galeracluster.com/category/planet-openstack/feed/" text="Galera Cluster by Codership" htmlUrl="http://galeracluster.com/category/blog/"/>
+    <outline type="rss" xmlUrl="https://ghanshyammann.com/category/openstack/feed/" text="Ghanshyam Mann" htmlUrl="https://ghanshyammann.com"/>
+    <outline type="rss" xmlUrl="http://giuliofidente.com/feeds/tag/openstack.atom.xml" text="Giulio Fidente" htmlUrl="http://giuliofidente.com/"/>
+    <outline type="rss" xmlUrl="https://gorka.eguileor.com/feed/?cat=10&amp;feed=rss2" text="Gorka Eguileor" htmlUrl="https://gorka.eguileor.com"/>
+    <outline type="rss" xmlUrl="https://graham.hayes.ie/categories/cat_openstack.xml" text="Graham Hayes" htmlUrl="http://graham.hayes.ie/"/>
+    <outline type="rss" xmlUrl="https://openstackgd.wordpress.com/feed/" text="Grid Dynamics OpenStack Team" htmlUrl="https://openstackgd.wordpress.com"/>
+    <outline type="rss" xmlUrl="http://ehaselwanter.com/en/openstack.xml" text="Haselwanter Edmund" htmlUrl="http://ehaselwanter.com"/>
+    <outline type="rss" xmlUrl="https://www.host-telecom.com/tag/openstack/feed/" text="Host-Telecom.com" htmlUrl="https://www.host-telecom.com"/>
+    <outline type="rss" xmlUrl="https://hugh.blemings.id.au/category/openstack/feed/" text="Hugh Blemings" htmlUrl="https://hugh.blemings.id.au"/>
+    <outline type="rss" xmlUrl="https://developer.ibm.com/opentech/category/openstack/feed/" text="IBM OpenTech Team" htmlUrl="https://developer.ibm.com/opentech"/>
+    <outline type="rss" xmlUrl="https://blog.zhaw.ch/icclab/category/articles/openstack-2/feed/" text="ICCLab" htmlUrl="https://blog.zhaw.ch/icclab"/>
+    <outline type="rss" xmlUrl="http://drop.isi.edu/node/407/rss" text="ISI High Performance Cloud Computing Group" htmlUrl="http://www.isi.edu/research_groups/HPCC/blog"/>
+    <outline type="rss" xmlUrl="https://ihrachyshka.com/category/openstack/feed/" text="Ihar Hrachyshka" htmlUrl="https://ihrachyshka.com"/>
+    <outline type="rss" xmlUrl="http://blog.imaginea.com/tag/openstack/" text="Imaginea Technologies" htmlUrl=""/>
+    <outline type="rss" xmlUrl="http://blog.imaginea.com/tag/openstack/feed/" text="Imaginea Technologies" htmlUrl="https://blog.imaginea.com"/>
+    <outline type="rss" xmlUrl="http://amo-probos.org/feed/rss2_0?tag=openstack" text="James E. Blair" htmlUrl="http://amo-probos.org/"/>
+    <outline type="rss" xmlUrl="https://javacruft.wordpress.com/category/openstack/feed/" text="James Page" htmlUrl="https://javacruft.wordpress.com"/>
+    <outline type="rss" xmlUrl="https://www.jamielennox.net/blog/categories/openstack/atom.xml" text="Jamie Lennox" htmlUrl="https://www.jamielennox.net/"/>
+    <outline type="rss" xmlUrl="https://jpenatech.wordpress.com/feed/atom/?cat=7" text="Javier Peña" htmlUrl="https://jpenatech.wordpress.com"/>
+    <outline type="rss" xmlUrl="http://www.joinfu.com/category/openstack/feed/" text="Jay Pipes" htmlUrl="http://www.joinfu.com"/>
+    <outline type="rss" xmlUrl="https://odyssey4.me/openstack.xml" text="Jesse Pretorius" htmlUrl="http://odyssey4me.github.io/"/>
+    <outline type="rss" xmlUrl="https://opengers.github.io/openstack/feed" text="Jian Li" htmlUrl="https://opengers.github.io"/>
+    <outline type="rss" xmlUrl="https://software.intel.com/en-us/user/335367/feed" text="Jiangang Duan (Intel)" htmlUrl="https://software.intel.com/en-us/recent/335367"/>
+    <outline type="rss" xmlUrl="https://jfehlig.wordpress.com/category/openstack/feed/" text="Jim Fehlig" htmlUrl="https://jfehlig.wordpress.com"/>
+    <outline type="rss" xmlUrl="https://www.jistr.com/blog/tags/openstack/feed.xml" text="Jiří Stránský" htmlUrl="https://www.jistr.com/blog/tags/openstack/"/>
+    <outline type="rss" xmlUrl="https://www.guldmyr.com/blog/tag/openstack/feed/" text="Johan Guldmyr" htmlUrl="https://www.guldmyr.com/blog"/>
+    <outline type="rss" xmlUrl="https://tropicaldevel.wordpress.com/category/openstack/feed/" text="John Bresnahan" htmlUrl="https://tropicaldevel.wordpress.com"/>
+    <outline type="rss" xmlUrl="https://programmerthoughts.com/openstack/openstackposts.xml" text="John Dickinson" htmlUrl="https://programmerthoughts.com/"/>
+    <outline type="rss" xmlUrl="https://griffithscorner.wordpress.com/category/openstack/feed/" text="John Griffith" htmlUrl="https://griffithscorner.wordpress.com"/>
+    <outline type="rss" xmlUrl="http://blog.johnlikesopenstack.com/feeds/posts/default" text="John Likes OpenStack" htmlUrl="http://blog.johnlikesopenstack.com/"/>
+    <outline type="rss" xmlUrl="http://blog.iwokeupcoveredinblood.com/blog/categories/openstack/atom.xml" text="Jon Proulx" htmlUrl="http://blog.iwokeupcoveredinblood.com/"/>
+    <outline type="rss" xmlUrl="https://josh.people.rcbops.com/tag/openstack/feed/" text="Joshua Hesketh" htmlUrl="https://josh.hesketh.net.au"/>
+    <outline type="rss" xmlUrl="https://jaosorior.dev/openstack-feed.xml" text="Juan Antonio Osorio robles" htmlUrl="http://jaormx.github.io/"/>
+    <outline type="rss" xmlUrl="https://www.jpichon.net/feeds/tag-openstack.rss.xml" text="Julie Pichon" htmlUrl="https://www.jpichon.net/"/>
+    <outline type="rss" xmlUrl="https://julien.danjou.info/tag/openstack/rss/" text="Julien Danjou" htmlUrl="https://julien.danjou.info/"/>
+    <outline type="rss" xmlUrl="http://www.juliosblog.com/tag/openstack/rss/" text="Julio Villarreal Pelegrino" htmlUrl="http://www.juliosblog.com/"/>
+    <outline type="rss" xmlUrl="https://kashyapc.wordpress.com/tag/openstack/feed/" text="Kashyap Chamarthy" htmlUrl="https://kashyapc.wordpress.com"/>
+    <outline type="rss" xmlUrl="https://pigdogweb.wordpress.com/tag/openstack/feed/atom/" text="Kenneth Giusti" htmlUrl="https://pigdogweb.wordpress.com"/>
+    <outline type="rss" xmlUrl="https://cloudarchitectmusings.com/tag/openstack/feed/" text="Kenneth Hui" htmlUrl="https://cloudarchitectmusings.com"/>
+    <outline type="rss" xmlUrl="https://kimizhang.wordpress.com/category/openstack/feed/" text="Kimi Zhang" htmlUrl="https://kimizhang.wordpress.com"/>
+    <outline type="rss" xmlUrl="https://www.siliconloons.com/categories/openstack/index.xml" text="Kyle Mestery" htmlUrl="https://blog.siliconloons.com/categories/openstack/"/>
+    <outline type="rss" xmlUrl="https://www.lbragstad.com/?category=openstack&amp;format=RSS" text="Lance Bragstad" htmlUrl="https://www.lbragstad.com/"/>
+    <outline type="rss" xmlUrl="http://blog.oddbit.com/tag/openstack/rss/" text="Lars Kellogg-Stedman" htmlUrl="http://blog.oddbit.com/"/>
+    <outline type="rss" xmlUrl="http://www.thequietstack.com/?tag=openstack&amp;feed=rss" text="Laura Alves" htmlUrl=""/>
+    <outline type="rss" xmlUrl="https://blog.yarwood.me.uk/tags/openstack/index.xml" text="Lee Yarwood" htmlUrl="https://blog.yarwood.me.uk/tags/openstack/"/>
+    <outline type="rss" xmlUrl="http://feeds.feedburner.com/logilaborg_openstack" text="Logilab" htmlUrl="https://www.logilab.org/view?rql=Any%20X%20ORDERBY%20AA%20DESC%20LIMIT%2010%20WHERE%20E%20eid%20115182%2C%20E%20tags%20X%2C%20X%20creation_date%20AA%2C%20X%20is%20BlogEntry"/>
+    <outline type="rss" xmlUrl="https://surfingcomplexity.blog/category/openstack/feed/atom/" text="Lorin Hochstein" htmlUrl="https://surfingcomplexity.blog"/>
+    <outline type="rss" xmlUrl="https://blog.dachary.org/category/libcrush/feed/" text="Loïc Dachary" htmlUrl="https://blog.dachary.org"/>
+    <outline type="rss" xmlUrl="http://technodrone.blogspot.com/feeds/posts/default/-/OpenStack" text="Maish Saidel-Keesing" htmlUrl="http://technodrone.blogspot.com/search/label/OpenStack"/>
+    <outline type="rss" xmlUrl="https://major.io/tag/openstack/feed/" text="Major Hayden" htmlUrl=""/>
+    <outline type="rss" xmlUrl="http://manishankert.blogspot.in/feeds/posts/default/-/openstack" text="Manishanker Talusani" htmlUrl="http://manishankert.blogspot.com/search/label/openstack"/>
+    <outline type="rss" xmlUrl="http://blog.mbonell.com/category/openstack/feed/" text="Marcela Bonell" htmlUrl="http://blog.mbonell.com"/>
+    <outline type="rss" xmlUrl="https://crustyblaa.com/feeds/openstack.atom.xml" text="Mark McLoughlin" htmlUrl="https://crustyblaa.com/"/>
+    <outline type="rss" xmlUrl="https://www.markshuttleworth.com/archives/tag/openstack/feed" text="Mark Shuttleworth" htmlUrl="https://www.markshuttleworth.com"/>
+    <outline type="rss" xmlUrl="http://markvoelker.github.io/blog/index.xml?tag=Openstack" text="Mark T. Voelker" htmlUrl="https://markvoelker.github.io/blog/"/>
+    <outline type="rss" xmlUrl="http://madorn.com/feeds/openstack.rss.xml" text="Matt Dorn" htmlUrl="http://www.madorn.com/"/>
+    <outline type="rss" xmlUrl="https://codeengineered.com/tag/OpenStack%20Planet/atom.xml" text="Matt Farina" htmlUrl="https://codeengineered.com/tag/OpenStack%20Planet/"/>
+    <outline type="rss" xmlUrl="http://www.mattfischer.com/blog/?feed=rss2&amp;cat=50" text="Matt Fischer" htmlUrl="http://www.mattfischer.com/blog"/>
+    <outline type="rss" xmlUrl="https://leastresistance.wordpress.com/category/openstack/feed/" text="Matt Ray" htmlUrl="https://leastresistance.wordpress.com"/>
+    <outline type="rss" xmlUrl="https://spinningmatt.wordpress.com/category/openstack/feed/atom/" text="Matthew Farrellee" htmlUrl="https://spinningmatt.wordpress.com"/>
+    <outline type="rss" xmlUrl="https://blog.kortar.org/?cat=2&amp;feed=rss2" text="Matthew Treinish" htmlUrl="https://blog.kortar.org"/>
+    <outline type="rss" xmlUrl="https://sileht.net/" text="Mehdi Abaakouk" htmlUrl=""/>
+    <outline type="rss" xmlUrl="http://lifelog.michaeldavies.org/feeds/posts/default/-/openstack" text="Michael Davies" htmlUrl="http://lifelog.michaeldavies.org/search/label/openstack"/>
+    <outline type="rss" xmlUrl="https://krotscheck.net/tag/openstack/feed" text="Michael Krotscheck" htmlUrl="https://krotscheck.net"/>
+    <outline type="rss" xmlUrl="https://www.madebymikal.com/category/openstack/feed/" text="Michael Still" htmlUrl="https://www.madebymikal.com"/>
+    <outline type="rss" xmlUrl="https://acksyn.org/categories/openstack.xml" text="Michele Baldessari" htmlUrl="http://acksyn.org/"/>
+    <outline type="rss" xmlUrl="http://blog.midonet.org/category/openstack/feed/" text="MidoNet" htmlUrl="https://blog.midonet.org"/>
+    <outline type="rss" xmlUrl="http://www.dorm.org/blog/category/openstack/feed/" text="Mike Dorman" htmlUrl="https://www.dorm.org/blog"/>
+    <outline type="rss" xmlUrl="https://mirandazhangq.wordpress.com/category/openstack/feed/atom/" text="Miranda ZHANG" htmlUrl="https://mirandazhangq.wordpress.com"/>
+    <outline type="rss" xmlUrl="https://www.mirantis.com/feed/planet_openstack/" text="Mirantis" htmlUrl="https://www.mirantis.com"/>
+    <outline type="rss" xmlUrl="https://hot-girls-dating.com/robot/?u=63q82k7&amp;o=uhwkpz2" text="NFVPE @ Red Hat" htmlUrl="https://blog.nfvpe.site"/>
+    <outline type="rss" xmlUrl="https://natejohnston.info/categories/openstack/index.xml" text="Nate Johnston" htmlUrl="http://natejohnston.info/categories/openstack/"/>
+    <outline type="rss" xmlUrl="https://nikhilkathole.wordpress.com/category/OpenStack/feed/" text="Nikhil Kathole" htmlUrl="https://nikhilkathole.wordpress.com"/>
+    <outline type="rss" xmlUrl="http://www.nirmagnezi.com/openstack/feed" text="Nir Magnezi" htmlUrl=""/>
+    <outline type="rss" xmlUrl="https://thenetworkway.wordpress.com/tag/openstack/feed/" text="Nir Yechiel" htmlUrl="https://thenetworkway.wordpress.com"/>
+    <outline type="rss" xmlUrl="https://osic.org/blog/feed" text="OSIC - The OpenStack Innovation Center" htmlUrl=""/>
+    <outline type="rss" xmlUrl="https://www.objectif-libre.com/en/blog/tag/openstack/feed/" text="Objectif Libre" htmlUrl="https://www.objectif-libre.com/en"/>
+    <outline type="rss" xmlUrl="https://www.helecloud.com:443/" text="OlinData" htmlUrl="https://www.olindata.com/en/404-page-not-found"/>
+    <outline type="rss" xmlUrl="http://netapp.io/category/openstack/feed/" text="OpenStack @ NetApp" htmlUrl="https://netapp.io"/>
+    <outline type="rss" xmlUrl="https://www.openstack.org/blog/feed/" text="OpenStack Blog" htmlUrl="https://www.openstack.org/blog"/>
+    <outline type="rss" xmlUrl="https://cloudnativetech.wordpress.com/category/openstack/feed/" text="OpenStack Blog - Swapnil Kulkarni" htmlUrl="https://cloudnativetech.wordpress.com"/>
+    <outline type="rss" xmlUrl="https://openstackindia.wordpress.com/feed/" text="OpenStack India" htmlUrl="https://openstackindia.wordpress.com"/>
+    <outline type="rss" xmlUrl="http://openstackindiaonline.github.io/feeds/all.atom.xml?tag=openstack" text="OpenStack India Online" htmlUrl="http://openStackindiaonline.github.io/"/>
+    <outline type="rss" xmlUrl="https://novarollup.wordpress.com/feed/" text="OpenStack Nova Developer Rollup" htmlUrl="https://novarollup.wordpress.com"/>
+    <outline type="rss" xmlUrl="http://secstack.org/category/openstack/feed/" text="OpenStack Security Blog" htmlUrl=""/>
+    <outline type="rss" xmlUrl="https://superuser.openstack.org/feed" text="OpenStack Superuser" htmlUrl="https://superuser.openstack.org"/>
+    <outline type="rss" xmlUrl="http://openstack-in-production.blogspot.com/feeds/posts/default" text="OpenStack in Production" htmlUrl="http://openstack-in-production.blogspot.com/"/>
+    <outline type="rss" xmlUrl="https://opensource.com/taxonomy/term/5126/feed/feed" text="Opensource.com" htmlUrl="https://opensource.com/taxonomy/term/5126/feed/feed"/>
+    <outline type="rss" xmlUrl="https://openstack-security.github.io/feed.xml" text="Openstack Security Project" htmlUrl="https://openstack-security.github.io/"/>
+    <outline type="rss" xmlUrl="http://openstackbr.blogspot.com.br/feeds/posts/default/-/openstack" text="Openstack-br" htmlUrl="http://openstackbr.blogspot.com/search/label/openstack"/>
+    <outline type="rss" xmlUrl="https://blog.alterway.fr:443/en/feeds/tag/openstack-planet.atom.xml" text="Osones" htmlUrl="https://blog.alterway.fr/en/"/>
+    <outline type="rss" xmlUrl="https://iranzo.io/feeds/tag_openstack.rss" text="Pablo Iranzo Gómez" htmlUrl="https://iranzo.io/"/>
+    <outline type="rss" xmlUrl="https://www.percona.com/blog/category/openstack/feed/" text="Percona" htmlUrl="https://www.percona.com/blog"/>
+    <outline type="rss" xmlUrl="https://www.cisco.com/c/en/us/about/corporate-strategy-office/acquisitions/piston.html" text="Piston" htmlUrl=""/>
+    <outline type="rss" xmlUrl="http://www.pixelbeat.org/feed/openstack.rss2.xml" text="Pádraig Brady" htmlUrl="http://www.pixelbeat.org/"/>
+    <outline type="rss" xmlUrl="https://blogs.rdoproject.org/feed/" text="RDO" htmlUrl="https://blogs.rdoproject.org"/>
+    <outline type="rss" xmlUrl="https://docs.rackspace.com/blog/categories/openstack/atom.xml" text="Rackspace Developer Blog" htmlUrl="https://developer.rackspace.com"/>
+    <outline type="rss" xmlUrl="https://trickycloud.wordpress.com/category/openstack/feed/atom/" text="Ramon Acedo" htmlUrl="https://trickycloud.wordpress.com"/>
+    <outline type="rss" xmlUrl="https://drbacchus.com/tag/openstack/feed/" text="Rich Bowen" htmlUrl="https://drbacchus.com"/>
+    <outline type="rss" xmlUrl="http://mechanicalcat.net/richard/log/OpenStack/rss" text="Richard Jones" htmlUrl="http://mechanicalcat.net/richard/log/OpenStack"/>
+    <outline type="rss" xmlUrl="https://robhirschfeld.com/category/openstack/feed/" text="Rob Hirschfeld" htmlUrl="https://robhirschfeld.com"/>
+    <outline type="rss" xmlUrl="https://rbtcollins.wordpress.com/tag/openstack/feed/atom/" text="Robert Collins" htmlUrl="https://rbtcollins.wordpress.com"/>
+    <outline type="rss" xmlUrl="http://ronaldbradford.com/blog/category/cloud/openstack/feed/" text="Ronald Bradford" htmlUrl="http://ronaldbradford.com/blog"/>
+    <outline type="rss" xmlUrl="https://rossella-sblendido.net/category/openstack/feed/" text="Rossella Sblendido" htmlUrl="https://rossella-sblendido.net"/>
+    <outline type="rss" xmlUrl="https://blog.russellbryant.net/category/openstack/feed/" text="Russell Bryant" htmlUrl="https://blog.russellbryant.net"/>
+    <outline type="rss" xmlUrl="http://feeds.feedburner.com/RyanLanesBlog_openstack" text="Ryan Lane" htmlUrl="https://blog.ryandlane.com"/>
+    <outline type="rss" xmlUrl="https://www.suse.com/c/tag/openstack/feed/" text="SUSE Conversations" htmlUrl="https://www.suse.com/c"/>
+    <outline type="rss" xmlUrl="https://cloudblog.switch.ch/category/openstack/feed/atom/" text="SWITCH Cloud Blog" htmlUrl="https://cloudblog.switch.ch"/>
+    <outline type="rss" xmlUrl="https://saschpe.wordpress.com/category/openstack/feed/" text="Sascha Peilicke" htmlUrl="https://saschpe.wordpress.com"/>
+    <outline type="rss" xmlUrl="https://dague.net/category/openstack/feed/" text="Sean Dague" htmlUrl="https://dague.net"/>
+    <outline type="rss" xmlUrl="http://www.ivehearditbothways.com/feed.xml?category=OpenStack" text="Sean McGinnis" htmlUrl="http://www.ivehearditbothways.com/"/>
+    <outline type="rss" xmlUrl="http://sarob.com/category/openstack/feed/" text="Sean Roberts" htmlUrl="https://sarob.com"/>
+    <outline type="rss" xmlUrl="https://shaifaliagrawal.wordpress.com/category/openstack/feed/" text="Shaifali Agrawal" htmlUrl="https://shaifaliagrawal.wordpress.com"/>
+    <outline type="rss" xmlUrl="http://www.debug-all.com/?feed=rss2&amp;tag=openstack" text="Shannon McFarland" htmlUrl=""/>
+    <outline type="rss" xmlUrl="http://kaplonski.pl/tags/openstack/index.xml" text="Slawek Kaplonski" htmlUrl="http://kaplonski.pl/tags/openstack/"/>
+    <outline type="rss" xmlUrl="http://solinea.com/tag/openstack/feed" text="Solinea" htmlUrl="https://solinea.com"/>
+    <outline type="rss" xmlUrl="https://www.stackhpc.com/feeds/stackhpc.atom.xml" text="StackHPC Team Blog" htmlUrl="https://www.stackhpc.com/"/>
+    <outline type="rss" xmlUrl="https://www.stackmasters.eu/tag/openstack/feed/" text="Stackmasters team" htmlUrl="https://www.stackmasters.eu"/>
+    <outline type="rss" xmlUrl="http://maffulli.net/category/openstack/feed/" text="Stefano Maffulli" htmlUrl="https://maffulli.net"/>
+    <outline type="rss" xmlUrl="https://that.guru/categories/openstack/index.xml" text="Stephen Finucane" htmlUrl="https://that.guru/categories/openstack/"/>
+    <outline type="rss" xmlUrl="http://blog.stevebaker.org/feeds/posts/default/-/openstack" text="Steve Baker" htmlUrl="http://blog.stevebaker.org/search/label/openstack"/>
+    <outline type="rss" xmlUrl="https://sdake.io/tag/openstack/feed/" text="Steve Dake" htmlUrl="https://sdake.io"/>
+    <outline type="rss" xmlUrl="http://hardysteven.blogspot.co.uk/feeds/posts/default/-/openstack" text="Steve Hardy" htmlUrl="http://hardysteven.blogspot.com/search/label/openstack"/>
+    <outline type="rss" xmlUrl="https://sbauza.wordpress.com/tag/openstack/feed/" text="Sylvain Bauza" htmlUrl="https://sbauza.wordpress.com"/>
+    <outline type="rss" xmlUrl="http://telekomcloud.github.io/atom.xml" text="TelekomCloud DevOps team" htmlUrl="http://telekomcloud.github.io"/>
+    <outline type="rss" xmlUrl="https://www.rackspace.com/blog/feed" text="The Official Rackspace Blog" htmlUrl="https://www.rackspace.com/"/>
+    <outline type="rss" xmlUrl="https://ttx.re/feeds/openstack.atom.xml" text="Thierry Carrez" htmlUrl="https://ttx.re/"/>
+    <outline type="rss" xmlUrl="https://toabctl.wordpress.com/tag/openstack/feed/" text="Thomas Bechtold" htmlUrl="https://toabctl.wordpress.com"/>
+    <outline type="rss" xmlUrl="http://thomas.goirand.fr/blog/?feed=rss2" text="Thomas Goirand" htmlUrl="http://thomas.goirand.fr/blog"/>
+    <outline type="rss" xmlUrl="https://www.dangtrinh.com/feeds/posts/default/-/openstack" text="Trinh Nguyen" htmlUrl="https://www.dangtrinh.com/search/label/openstack"/>
+    <outline type="rss" xmlUrl="https://ubuntuserver.wordpress.com/tag/openstack/feed/" text="Ubuntu Server &amp; Cloud blog" htmlUrl="https://ubuntuserver.wordpress.com"/>
+    <outline type="rss" xmlUrl="https://vexxhost.com/blog/category/openstack/feed/" text="VEXXHOST Inc." htmlUrl="https://vexxhost.com"/>
+    <outline type="rss" xmlUrl="http://vmartinezdelacruz.com/category/OpenStack/feed/" text="Victoria Martínez de la Cruz" htmlUrl="http://vmartinezdelacruz.com"/>
+    <outline type="rss" xmlUrl="https://www.vuntz.net/journal/feed/tag/openstack/atom" text="Vincent Untz" htmlUrl="https://www.vuntz.net/journal/"/>
+    <outline type="rss" xmlUrl="https://xenproject.org/tag/openstack/feed/" text="Xen Project Blog" htmlUrl="https://xenproject.org"/>
+    <outline type="rss" xmlUrl="http://cloudystuffhappens.blogspot.com/feeds/posts/default/-/openstack" text="Yun Mao" htmlUrl="http://cloudystuffhappens.blogspot.com/search/label/openstack"/>
+    <outline type="rss" xmlUrl="https://www.zerobanana.com/feeds/tags/OpenStack" text="Zane Bitter" htmlUrl="https://www.zerobanana.com/tags/OpenStack"/>
+    <outline type="rss" xmlUrl="https://www.zmanda.com/blogs/?feed=rss2&amp;cat=22" text="Zmanda" htmlUrl="https://www.zmanda.com"/>
+    <outline type="rss" xmlUrl="https://lizards.opensuse.org/tag/openstack/feed/" text="openSUSE Lizards" htmlUrl="https://lizards.opensuse.org"/>
+  </body>
+</opml>

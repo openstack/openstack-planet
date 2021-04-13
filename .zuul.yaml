@@ -1,13 +1,7 @@
-- job:
-    name: openstack-planet-unittest
-    description: |
-      Runs unit test on openstack-plannet project.
-    run: playbooks/unittest/run.yaml
-
 - project:
     check:
       jobs:
-        - openstack-planet-unittest
+        - noop
     gate:
       jobs:
-        - openstack-planet-unittest
+        - noop
